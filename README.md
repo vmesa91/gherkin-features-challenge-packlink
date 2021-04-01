@@ -1,1 +1,0 @@
-# gherkin-features-challenge-packlink
