@@ -2,11 +2,11 @@ Feature: Register
 
   Testing Register step
 
-  Scenario Outline: Successful Register with required fields
+  Scenario: Successful Register with required fields
 
     Given An internet user
-    When Going to 'https://pro.packlink.es/registro'
+    When Going to "https://pro.packlink.es/registro"
     Then It will see the registration form with required fields
-    And  It will fill in all the fields correctly
+    
 
  
