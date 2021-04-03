@@ -4,10 +4,12 @@ Feature: Login
   As a user
   I want to be able to login
 
+
   Background: Generic Steps
 
     Given An internet user who is currently registered
 
+  @smoke
   Scenario: Login Register
 
     When Going to "https://pro.packlink.es/login"

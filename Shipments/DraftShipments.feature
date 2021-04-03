@@ -9,6 +9,7 @@ Feature: Draft Shipments
     Given A registered user
     When A service has been selected
 
+  @smoke
   Scenario: Saved to drafts correctly
 
     Then It will save the shipment as a draft

@@ -5,8 +5,10 @@ Feature: Search Services
   I want to be able to find the cheapest service
 
   Background: Generic Steps
+
     Given A registered user
 
+  @smoke
   Scenario Outline: Search completed successfully
 
     When performing a search with the following information: "<CityFrom>" -> "<CityTo>"

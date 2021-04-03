@@ -8,6 +8,7 @@ Feature: Register
 
     Given An internet user who is not currently registered
 
+  @smoke
   Scenario: View fields
 
     When Going to "https://pro.packlink.es/registro"
